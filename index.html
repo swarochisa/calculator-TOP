@@ -9,39 +9,42 @@
 </head>
 <body>
     <main class="main">
-        <div class="container">
-            <div class="display"></div>
-            <div class="row1">
-                <button class="clear">CLEAR</button>
-                <button class="delete">DELETE</button>
+        <div class="calculator">
+            <div class="display">
+                <div class="screen-last" id="lastscreen"></div>
+                <div class="screen-current" id="currentScreen"></div>
             </div>
-            <div class="row2">
-                <button class="seven">7</button>
-                <button class="eight">8</button>
-                <button class="nine">9</button>
-                <button class="divide">÷</button>
-            </div>
-            <div class="row3">
-                <button class="four">4</button>
-                <button class="five">5</button>
-                <button class="six">9</button>
-                <button class="multiply">×</button>
-            </div>
-            <div class="row4">
-                <button class="one">1</button>
-                <button class="two">2</button>
-                <button class="three">3</button>
-                <button class="subtract">-</button>
-            </div>
-            <div class="row5">
-                <button class="decimal">.</button>
-                <button class="zero">0</button>
-                <button class="equal">=</button>
-                <button class="add">+</button>
+            <div class="buttons-grid">
+                <button class="btn clear span-2" id="clear">CLEAR</button>
+                <button class="btn delete span-2" id="delete">DELETE</button>
+            
+                <button class="btn" data-number>7</button>
+                <button class="btn" data-number>8</button>
+                <button class="btn" data-number>9</button>
+                <button class="btn" data-operator>÷</button>
+            
+            
+                <button class="btn" data-number>4</button>
+                <button class="btn" data-number>5</button>
+                <button class="btn" data-number>9</button>
+                <button class="btn" data-operator>×</button>
+         
+            
+                <button class="btn" data-number>1</button>
+                <button class="btn" data-number>2</button>
+                <button class="btn" data-number>3</button>
+                <button class="btn" data-operator>-</button>
+           
+           
+                <button class="btn" >.</button>
+                <button class="btn" data-number>0</button>
+                <button class="btn" data-operator>=</button>
+                <button class="btn" data-operator>+</button>
             </div>
         </div>
 
     </main>
+    <script src="./script.js"></script>
     
 </body>
 </html>
