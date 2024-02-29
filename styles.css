@@ -1,9 +1,9 @@
 :root {
     --background : #333;
-    --text : #ededed;
+    --text : #212020;
     --altText : #fefefe; 
     --calculator :   #aaa; 
-    --hover: #ddd;
+    --hover: #bdbcbc;
 }
 
 *,
@@ -115,6 +115,6 @@ button
 
 
 .btn:hover{
-    background-color: var(--background);
+    background-color: var(--hover);
     
 }
