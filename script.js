@@ -140,13 +140,13 @@ function evaluate(op1,a,op2)
     switch (a)
     {
         case '÷' : op1/=op2;
-        return op1.toPrecision(2);
+        return op1;
         case '-': op1 -= op2;
-        return op1.toPrecision(2);
+        return op1;
         case '+':  op1 +=op2;
-        return op1.toPrecision(2);
+        return op1;
         case '×': op1*=op2;
-        return op1.toPrecision(2);
+        return op1;
        
     }
 
